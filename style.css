@@ -12,18 +12,32 @@ a, img, var, ul, li,{
   background-color: rgb(250,250,250);
 	font-size: 18px;
 } */
-
+.white{
+	width:100vw;
+	height:70vh;
+	position:relative;
+	z-index: 30;
+	background-color: white;
+	padding-bottom: 25vh;
+	margin: -50vh;
+	margin-left: auto;
+margin-right: auto;
+box-shadow: white 30px 30px 30px;
+cursor: s-resize;
+}
 .body{
-
+	cursor: s-resize;
 	width: 100vw;
 }
 .title{
 width: 65vw;
+cursor: s-resize;
 /* overflow: hidden; */
 display: grid;
 margin-left: auto;
 margin-right: auto;
-grid-template-columns:73fr 56fr 64fr 57fr 9fr 57fr 45fr 74fr 56fr 66fr 96fr 56fr 45fr 64fr 66fr 64fr 66fr
+grid-template-columns:73fr 56fr 64fr 57fr 9fr 57fr 45fr 74fr 56fr 66fr 96fr 56fr 45fr 64fr 66fr 64fr 66fr;
+z-index:100;
 }
 
 .box{
@@ -31,28 +45,43 @@ grid-template-columns:73fr 56fr 64fr 57fr 9fr 57fr 45fr 74fr 56fr 66fr 96fr 56fr
 	text-align: center;
 	margin-top: 20vh;
 	position: relative;
+	z-index:100;
+	cursor: s-resize;
+
 
 }
 
 .intro{
-	
-	margin-left: auto;
+	z-index: 20;
+
+	margin-left:20vw;
 	margin-right: auto;
-	width:70vw;
+	width:60vw;
+	text-align: justify;
+	margin-top: -55vh;
+	position: relative;
+	/* box-shadow: white 30px 30px 30px; */
+
 }
 .touch{
 border-bottom: black dotted 1px;
 }
 
 section{
+	position: relative;
+	background-color: white;
 	display: grid;
 	width:95vw;
 	grid-template-columns: 1fr 1fr;
 	line-height: 1.4;
-	padding-top: 60vh;
+	box-shadow: white -30px -30px 30px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-left: 5vw;
 margin-right: auto;
+margin-top: 35vh;
+z-index: 30;
+
 }
 /*.apletters{
 	grid-column-start: 2;
@@ -68,39 +97,57 @@ margin-right: auto;
 }*/
 #ap{
 
+
 padding-left:3vw;
 }
 #ry{
+
 	grid-column-start: 2;
 	padding-left: 3vw;
+	z-index: 30;
 
 }
-h1{
+h1{	cursor: s-resize;
+	position: relative;
 	font-family: sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 8vw;
 	letter-spacing: -3px;
 	color: rgb(30,30,30);
+	z-index: 30;
 }
-h2{
+h2{	cursor: s-resize;
+	position: relative;
 	font-family: sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: rgb(30,30,30);
 	text-align: center;
+	width:65vw;
+	margin-left: auto;
+	margin-right: auto;
+
+	z-index:30;
+
 }
-p{
+p{	cursor: s-resize;
+	position: relative;
 	font-family: sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5rem;
-	line-height: 1.3;
+	font-size: 1.1rem;
+	line-height: 1.8;
 	color: rgb(30,30,30);
 	padding-top: 600px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 30;
+
+
+	
+
 }
 a{
 	font-family: sans-serif;
@@ -109,6 +156,7 @@ a{
 	font-size: 1.4rem;
 	color: rgb(30,30,30);
 	text-decoration: none;
+	z-index: 30;
 }
 a:hover {
   color: rgba(14,99,236,.23);
@@ -121,12 +169,19 @@ padding-top: 0.2em;
 /* border-bottom: black 1px dotted; */
 }
 
-@media screen and (max-width: 400px) {
-	section{
+@media screen and (max-width: 500px) {
+section{
 	display:block;
-	padding-top: 40vh;
+	font-size: 1rem;
+	margin-top: 40vh;
+	box-shadow: white 30px -30px 20px;
 }
-
+#ry{
+	font-size: 1rem;
+}
+#ap{
+	font-size: 1rem;
+}
 	h1{
 		font-size: 2.8rem;
 	}
@@ -136,17 +191,195 @@ padding-top: 0.2em;
 		width:60vw;
 		margin-left: auto;
 		margin-right: auto;
+		z-index:30;
 	}
 	.title{
 		padding-top:15vh;
 		width:90vw
 	}
 	p{
-	
-		font-size: 1.6rem;
+		width:90vw;
+		font-size: 1.4rem;
 	
 	}
 	.intro{
 		width:90vw;
+		text-align: left;
+		
+
 	}
   }
+
+
+  .logobox{
+	  position: fixed;
+transform: scale(0.1);
+opacity:0.3;
+/* border:100px solid black;
+box-shadow: grey 100px 100px ; */
+display:grid;
+grid-gap: 15em;
+margin-top: -20vh;
+width:20vw;
+height:40vh;
+margin-left:40vw;
+/* margin-right: auto; */
+z-index:10;
+
+}
+img{
+	z-index:1;
+}
+
+  .logo{
+	/* border:100px solid black;
+box-shadow: grey 100px 100px ;
+	background-color: yellow; */
+	margin-left: auto;
+	margin-right: auto;
+	z-index:1;
+  }
+#lg1{
+
+	filter: blur(150px); 
+	animation:blur1;
+	animation-duration:2s;
+	animation-fill-mode: backwards;
+	animation-iteration-count:1;
+	z-index: 10;
+  }
+
+ 
+  #lg2{
+
+	filter: blur(150px); 
+	animation:blur2;
+	animation-duration:2s;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  }
+  #lg3{
+
+	filter: blur(150px); 
+	animation:blur3;
+	animation-duration:2s;
+	animation-delay: 2s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  }
+  #lg4{
+
+	filter: blur(150px); 
+	animation:blur4;
+	animation-duration:2s;
+	animation-delay: 3s;
+	animation-fill-mode: backwards;
+	animation-iteration-count:1;
+  }
+  #lg5{
+
+	filter: blur(150px); 
+	animation:blur5;
+	animation-duration:2s;
+	animation-delay: 4s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  }
+  #lg6{
+
+	filter: blur(150px); 
+	animation:blur6;
+	animation-duration:2s;
+	animation-delay: 5s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  }
+  #lg7{
+
+	filter: blur(150px); 
+	animation:blur7;
+	animation-duration:2s;
+	animation-delay: 6s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  }
+  #lg8{
+
+	filter: blur(150px); 
+	animation:blur8;
+	animation-duration:2s;
+	animation-delay: 7s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  }
+  #lg9{
+
+	filter: blur(150px); 
+	animation:blur9;
+	animation-duration:2s;
+	animation-delay: 8s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  }
+  #lg10{
+
+	filter: blur(150px); 
+	animation:blur10;
+	animation-duration:2s;
+	animation-delay: 9s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+  } 
+/* @keyframes blur1{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  }
+  @keyframes blur2{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  
+  }
+  @keyframes blur3{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)} */
+  }
+  @keyframes blur4{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  }
+  @keyframes blur5{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  }
+  @keyframes blur6{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  }
+  @keyframes blur7{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  }
+  @keyframes blur8{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  }
+  @keyframes blur9{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  }
+  @keyframes blur10{
+	0%   {filter: blur(150px)}
+	50%  {filter: blur(0px)}
+	100% {filter: blur(150px)}
+  } 
+  
