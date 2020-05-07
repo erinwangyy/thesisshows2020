@@ -28,7 +28,7 @@ cursor: s-resize;
 body{
 	cursor: s-resize;
 	width: 100vw;
-	
+
 }
 .title{
 width: 65vw;
@@ -205,13 +205,14 @@ padding-top: 0.2em;
 	opacity:0;
 }
 #triangle2{
-	margin-left: -15vw;
+	margin-left: -8vw;
 }
 section{
 text-align: center;
 	display:block;
 	font-size: 1rem;
-	margin-left: -3vw;
+	margin-left: auto;
+		margin-right: auto;
 margin-top:15vh;
 	box-shadow: white 30px -30px 20px;
 }
@@ -232,8 +233,9 @@ a{
 	}
 	h2{
 	
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		width:60vw;
+		margin-top:3vh;
 		margin-left: auto;
 		margin-right: auto;
 		z-index:30;
@@ -244,7 +246,7 @@ a{
 	}
 	p{
 	
-		width:60vw;
+		width:70vw;
 		font-size: 0.8rem;
 		text-align:start;
 		margin-left: auto;
@@ -252,7 +254,10 @@ a{
 	}
 	.intro{
 		width:70vw;
-		text-align:start;}
+		text-align:start;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 .logobox{
 	display:none;
