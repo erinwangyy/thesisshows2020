@@ -95,6 +95,8 @@ border-bottom: black dotted 1px;
 }
 
 section{
+	border-top: grey dotted 1px;
+margin-top: -3vh;
 	position: relative;
 	background-color: white;
 	display: grid;
@@ -102,9 +104,9 @@ section{
 	grid-template-columns: 1fr 1fr;
 	line-height: 1.4;
 	box-shadow: white -30px -30px 30px;
-	padding-top: 10px;
+
 	padding-bottom: 10px;
-	margin-left: 5vw;
+	margin-left: auto;
 margin-right: auto;
 margin-top: 35vh;
 z-index: 30;
@@ -123,12 +125,12 @@ z-index: 30;
 	bottom: 23px;
 }*/
 #ap{
-
+	padding-top: 8vh;
 
 padding-left:3vw;
 }
 #ry{
-
+	padding-top: 8vh;
 	grid-column-start: 2;
 	padding-left: 3vw;
 	z-index: 30;
@@ -178,6 +180,7 @@ padding-top: 0.2em;
 
 
 section{
+
 	display:block;
 	font-size: 1rem;
 	margin-top: 20vh;
@@ -245,7 +248,7 @@ height:40vh;
 margin-left:40vw;
 /* margin-right: auto; */
 z-index:10;
-
+cursor:s-resize;
 }
 img{
 	z-index:1;
@@ -361,11 +364,11 @@ box-shadow: grey 100px 100px ;
 	50%  {filter: blur(0px)}
 	100% {filter: blur(150px)}
   
-  }
+  } */
   @keyframes blur3{
 	0%   {filter: blur(150px)}
 	50%  {filter: blur(0px)}
-	100% {filter: blur(150px)} */
+	100% {filter: blur(150px)}
   }
   @keyframes blur4{
 	0%   {filter: blur(150px)}
