@@ -94,8 +94,29 @@ h2{	cursor: s-resize;
 border-bottom: black dotted 1px;
 }
 
+.logo0{
+	position: relative;
+	width:60px;
+	margin-top: -5vh;
+border-top: black 1px solid;
+}
+
+.LOGO{
+	border-top: black 1px dotted;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	height:150px;
+	position: relative;
+	margin-top: 30vh;
+margin-left: 2vw;
+	margin-right: auto;
+	margin-bottom: -54vh;
+	padding-top: -5vh;
+z-index: 60;
+}
+
 section{
-	border-top: grey dotted 1px;
+
 margin-top: -3vh;
 	position: relative;
 	background-color: white;
@@ -104,7 +125,7 @@ margin-top: -3vh;
 	grid-template-columns: 1fr 1fr;
 	line-height: 1.4;
 	box-shadow: white -30px -30px 30px;
-
+padding-top: 15vh;
 	padding-bottom: 10px;
 	margin-left: auto;
 margin-right: auto;
@@ -183,7 +204,7 @@ section{
 
 	display:block;
 	font-size: 1rem;
-	margin-top: 20vh;
+	margin-top: -20vh;
 	box-shadow: white 30px -30px 20px;
 }
 #ry{
@@ -248,10 +269,14 @@ height:40vh;
 margin-left:40vw;
 /* margin-right: auto; */
 z-index:10;
-cursor:s-resize;
+cursor:s-resize
 }
+
+
+
 img{
 	z-index:1;
+
 }
 
   .logo{
@@ -261,6 +286,8 @@ box-shadow: grey 100px 100px ;
 	margin-left: auto;
 	margin-right: auto;
 	z-index:1;
+
+	
   }
 #lg1{
 
@@ -365,7 +392,7 @@ box-shadow: grey 100px 100px ;
 	100% {filter: blur(150px)}
   
   } */
-  @keyframes blur3{
+  /* @keyframes blur3{
 	0%   {filter: blur(150px)}
 	50%  {filter: blur(0px)}
 	100% {filter: blur(150px)}
@@ -384,7 +411,7 @@ box-shadow: grey 100px 100px ;
 	0%   {filter: blur(150px)}
 	50%  {filter: blur(0px)}
 	100% {filter: blur(150px)}
-  }
+  } */
   @keyframes blur7{
 	0%   {filter: blur(150px)}
 	50%  {filter: blur(0px)}
