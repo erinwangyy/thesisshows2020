@@ -198,23 +198,29 @@ padding-top: 0.2em;
 
 @media screen and (max-width: 500px) {
 
-
-#triangle2{
-	display:none;
+.LOGO{
+	margin-top: 20vh;
 }
-
+#triangle1{
+	opacity:0;
+}
+#triangle2{
+	margin-left: -15vw;
+}
 section{
-
+text-align: center;
 	display:block;
 	font-size: 1rem;
-
+	margin-left: -3vw;
+margin-top:15vh;
 	box-shadow: white 30px -30px 20px;
 }
 #ry{
 	font-size: 1rem;
 }
 a{
-	font-size: 1rem;
+	text-align: center;
+	font-size: 0.8rem;
 	margin-left: auto;
 		margin-right: auto;
 }
@@ -237,6 +243,7 @@ a{
 		width:90vw
 	}
 	p{
+	
 		width:60vw;
 		font-size: 0.8rem;
 		text-align:start;
