@@ -54,9 +54,9 @@ z-index:100;
 .intro{
 	z-index: 40;
 
-	margin-left:20vw;
+	margin-left:auto;
 	margin-right: auto;
-	width:50vw;
+	width:65vw;
 	padding-top: 5vh;
 	text-align: justify;
 	margin-top: -55vh;
@@ -129,6 +129,7 @@ h2{	cursor: s-resize;
 	width:65vw;
 	margin-left: auto;
 	margin-right: auto;
+	width:65vw;
 
 	z-index:30;
 
@@ -138,7 +139,7 @@ p{	cursor: s-resize;
 	font-family: sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	line-height: 1.8;
 	color: rgb(30,30,30);
 	padding-top: 600px;
@@ -205,9 +206,16 @@ section{
 	}
 	.intro{
 		width:90vw;
-		text-align: left;
+		text-align: left;}
 
+.logobox{
+	display:none;
+	opacity:0;
 
+	}
+	.logo{
+		opacity:0;
+		display:none;
 	}
   }
 
